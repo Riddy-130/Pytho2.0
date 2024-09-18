@@ -1,0 +1,11 @@
+import calendar
+
+
+def display_year_calendar(year):
+    
+    print(calendar.calendar(year))
+
+
+year = 2022
+
+display_year_calendar(year)
